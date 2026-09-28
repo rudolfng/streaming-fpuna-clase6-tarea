@@ -34,7 +34,7 @@ def _():
     )
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
     # Tarea 3 · Beam avanzado
@@ -78,7 +78,7 @@ def _(datetime):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
     ## 1. Tiempo de evento
@@ -135,7 +135,7 @@ def _(Any, Iterable):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
     ## 2. Contrato determinista antes de Beam
@@ -233,7 +233,7 @@ def _(Any):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
     ## 3. Pipeline Beam, estado y triggers
@@ -281,7 +281,7 @@ def _(Any):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
     ## 4. Efectos externos
@@ -331,7 +331,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
     ## Entrega
